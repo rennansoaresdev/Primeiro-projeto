@@ -13,27 +13,21 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .background-section-one{
-  background-image: url(../assets/bg.jpg);
+  background-image: url(../assets/Doge.gif);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .background-section-two{
-  background-image: url(../assets/bg2.jpeg);
+  background-image: url(../assets/DogeBG.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.load{
-  width:100px;
-  height:100px;
-  position:absolute;
-  top:30%;
-  left:45%;
-  color:blue;
+
 }
 .card-container{
   background: white;
@@ -50,10 +44,6 @@ input{
   border-radius: 12px;
   background: white;
   color: black
-}
-
-form{
-  display: grid;
 }
 
 footer{

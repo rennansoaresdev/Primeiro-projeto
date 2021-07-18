@@ -2,6 +2,7 @@ const form = document.getElementById('form')
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  
   let nome = document.getElementById('nome').value;
   let email = document.getElementById('email').value;
   let data = {
@@ -17,9 +18,9 @@ form.addEventListener('submit', (e) => {
   function loading(){
     $('.load').css('display','none');
 }
-  let carregando = `<p>Carregando</p>`
+  let carregando = `<p>Loading...</p>`
 
-  let pronto = `<p>Pronto</p>`
+  let pronto = `<p>Ready</p>`
 
   content.innerHTML = carregando
 
